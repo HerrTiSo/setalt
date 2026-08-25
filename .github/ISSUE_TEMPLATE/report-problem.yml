@@ -1,0 +1,44 @@
+name: Report a problem
+description: Report outdated, incorrect, or misleading information
+title: "[Correction]: "
+labels:
+  - correction
+body:
+  - type: input
+    id: app
+    attributes:
+      label: App
+      description: Which listed app is affected?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problem
+      options:
+        - Pricing changed
+        - Subscription introduced
+        - Project abandoned
+        - Broken link
+        - Incorrect description
+        - Incorrect license
+        - No longer a good alternative
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What should be corrected?
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Link to a source confirming the change, if available.
+      placeholder: "https://..."

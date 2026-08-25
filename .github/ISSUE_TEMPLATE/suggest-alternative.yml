@@ -1,0 +1,101 @@
+name: Suggest an alternative
+
+description: Suggest a subscription-free alternative to a Setapp app
+
+title: "[Alternative]: "
+
+labels:
+
+  - new alternative
+
+body:
+
+  - type: input
+
+    id: setapp
+
+    attributes:
+
+      label: Setapp app
+
+      description: Which Setapp app does it replace?
+
+      placeholder: "e.g. Bartender"
+
+    validations:
+
+      required: true
+
+  - type: input
+
+    id: alternative
+
+    attributes:
+
+      label: Alternative
+
+      placeholder: "e.g. Thaw"
+
+    validations:
+
+      required: true
+
+  - type: input
+
+    id: url
+
+    attributes:
+
+      label: Project URL
+
+      description: Official website or GitHub repository
+
+      placeholder: "https://github.com/..."
+
+    validations:
+
+      required: true
+
+  - type: dropdown
+
+    id: type
+
+    attributes:
+
+      label: Type
+
+      options:
+
+        - Open Source
+
+        - Free
+
+        - One-time Purchase
+
+    validations:
+
+      required: true
+
+  - type: textarea
+
+    id: comparison
+
+    attributes:
+
+      label: Why does it belong on SetAlt?
+
+      description: What does it replace, and what makes it a good alternative?
+
+    validations:
+
+      required: true
+
+  - type: textarea
+
+    id: limitations
+
+    attributes:
+
+      label: Anything we should know?
+
+      description: Missing features, limitations, unusual licensing, etc.
