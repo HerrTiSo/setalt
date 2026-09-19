@@ -32,6 +32,7 @@ SetAlt is curated, not exhaustive. Alternatives should replace the main use case
 |---|---|:---:|---|
 | **Paste** | [⭐ Maccy](https://github.com/p0deje/Maccy) | 🟢 | Fast, keyboard-first clipboard history with previews and OCR |
 | **Paste** | [PastePal](https://github.com/IndieGoodies/PastePal) | 🟡 | More feature-heavy, with collections, previews, and iCloud sync |
+| **Paste** | [Whisk](https://github.com/nathan-poncet/whisk) | 🟢 | Paste-style panel with pins, search operators, paste stack and rich previews; local-only, no cloud sync |
 
 ### Menu Bar Management
 
