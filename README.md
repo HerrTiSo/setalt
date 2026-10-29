@@ -60,6 +60,7 @@ SetAlt is curated, not exhaustive. Alternatives should replace the main use case
 |---|---|:---:|---|
 | **Mosaic** | [⭐ Rectangle](https://github.com/rxhanson/Rectangle) | 🟢 | Straightforward keyboard shortcuts and window snapping |
 | **Mosaic** | [AeroSpace](https://github.com/nikitabobko/AeroSpace) | 🟢 | i3-inspired tiling with workspaces and keyboard-driven control |
+| **Mosaic** | [LayoutKeeper](https://github.com/tumingke0/LayoutKeeper) | 🟢 | Restores window position, size, and Space after reconnecting an external display |
 
 ### Media
 
